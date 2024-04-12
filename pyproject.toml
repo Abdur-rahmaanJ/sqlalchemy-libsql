@@ -42,7 +42,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.7"
 SQLAlchemy = "^2.0.0"
-libsql-client = "^0.3.0"
+libsql-client = "git+https://github.com/tursodatabase/libsql-client-py.git@595964c32d9969e4daf4abdba01a35921c58d013"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3"
